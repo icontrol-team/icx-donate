@@ -1,0 +1,28 @@
+{
+  "name": "icx-donate-button",
+  "version": "1.0.0",
+  "description": "Press button, receive ICX",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "testrpc": "ganache-cli --deterministic --seed 'eth-button' --blocktime 14",
+    "webpack": "webpack",
+    "dev": "webpack-dev-server",
+    "prettier": "prettier --ignore-path ./.prettierignore --write  \"{.,lib}/*.js\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "D": "^1.0.0",
+    "icon-sdk-js": "0.0.18",
+    "uglify-es-webpack-plugin": "^0.10.0"
+  },
+  "devDependencies": {
+    "prettier": "2.0.5",
+    "terser-webpack-plugin": "^3.0.6",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "webpack": "4.43.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
