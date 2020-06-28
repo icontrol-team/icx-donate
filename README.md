@@ -29,8 +29,8 @@ Options
 |address| your icx address| None|
 |network| Network name | mainnet `(mainnet, euljiro, yeouido, pagoda)`|         
 |button-type| button type| default `(default, simple)`|
-|amount| Set the amount of icx to be donated.| `float`|
 |button-string| Set the button string.| Donate for us|
+|amount| Set the amount of icx to be donated.| 0.01 `float`|
 |debug| print debug message using console.log | None|
 
 
