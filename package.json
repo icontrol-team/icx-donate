@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "testrpc": "ganache-cli --deterministic --seed 'eth-button' --blocktime 14",
-    "webpack": "webpack",
+    "webpack": "webpack --display-modules",
     "dev": "webpack-dev-server",
     "prettier": "prettier --ignore-path ./.prettierignore --write  \"{.,lib}/*.js\""
   },
@@ -14,11 +14,13 @@
   "license": "ISC",
   "dependencies": {
     "D": "^1.0.0",
+    "serialize-javascript": ">=2.1.1",
     "icon-sdk-js": "0.0.18",
     "uglify-es-webpack-plugin": "^0.10.0"
   },
   "devDependencies": {
     "prettier": "2.0.5",
+    "serialize-javascript": ">=2.1.1",
     "terser-webpack-plugin": "^3.0.6",
     "uglifyjs-webpack-plugin": "^2.2.0",
     "webpack": "4.43.0",
