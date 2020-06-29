@@ -44,8 +44,7 @@ Options
   src="https://icontrol-team.github.io/icx-donate/dist/icx-donate-button.js"
   data-meta="icx-donate"
   address="hxe8767c80a009c7bb8344d81c430144463cbb325e"
-  amout="0.01"
-  >
+  amount="0.01">
 </script>
 
 ```
@@ -62,7 +61,7 @@ Options
   src="https://icontrol-team.github.io/icx-donate/dist/icx-donate-button.js"
   data-meta="icx-donate"
   address="hxe8767c80a009c7bb8344d81c430144463cbb325e"
-  amout="0.01"
+  amount="0.01"
   debug>
 </script>
 
